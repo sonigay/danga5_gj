@@ -12,7 +12,6 @@ creds = ServiceAccountCredentials.from_json_keyfile_name('gjhelper-cc7069273059.
 client = gspread.authorize(creds)
 doc = client.open_by_url('https://docs.google.com/spreadsheets/d/1hL4uvq2On11zp-_JWoWMG0Gyyuty5Lhvp_gQkfTYsOI')
 
-sheet1 = doc.worksheet('무선출력')
 
 
 client = discord.Client()
